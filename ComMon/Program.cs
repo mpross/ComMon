@@ -14,7 +14,7 @@ namespace SeisIsoCom
     class SerialPortProgram
     {
         // Port set-up
-        private SerialPort port = new SerialPort("COM4",
+        static private SerialPort port = new SerialPort("COM4",
           115200, Parity.None, 8, StopBits.One);
         //Data file path
         string path = System.IO.Directory.GetCurrentDirectory() + @"/data.txt";
@@ -26,14 +26,25 @@ namespace SeisIsoCom
         [STAThread]
         static void Main(string[] args)
         {
+            Console.Write("Com port: ");
+            string portName = Console.ReadLine().ToUpper();
+            port= new SerialPort(portName,115200, Parity.None, 8, StopBits.One);
             new SerialPortProgram();
         }
         private SerialPortProgram()
         {
             port.DataReceived += new
               SerialDataReceivedEventHandler(port_DataReceived);
-            port.Open();
-            Application.Run();
+            try
+            {
+                port.Open();
+                Application.Run();
+            }
+            catch(IOException error)
+            {
+                Console.WriteLine(error.ToString());
+                Console.ReadLine();
+            }
         }
 
         private void port_DataReceived(object sender,

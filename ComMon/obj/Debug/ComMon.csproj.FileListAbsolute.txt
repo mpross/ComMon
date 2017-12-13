@@ -4,3 +4,4 @@ C:\Users\mpross2\Work Google Drive\Multipurpose Code\ComMon\ComMon\bin\Debug\Com
 C:\Users\mpross2\Work Google Drive\Multipurpose Code\ComMon\ComMon\obj\Debug\ComMon.exe
 C:\Users\mpross2\Work Google Drive\Multipurpose Code\ComMon\ComMon\obj\Debug\ComMon.pdb
 C:\Users\mpross2\Work Google Drive\Multipurpose Code\ComMon\ComMon\obj\Debug\ComMon.csprojResolveAssemblyReference.cache
+C:\Users\mpross2\Work Google Drive\Multipurpose Code\ComMon\ComMon\obj\Debug\ComMon.csproj.CoreCompileInputs.cache
