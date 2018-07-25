@@ -17,7 +17,7 @@ namespace SeisIsoCom
         static private SerialPort port = new SerialPort("COM4",
           115200, Parity.None, 8, StopBits.One);
         //Data file path
-        string path = System.IO.Directory.GetCurrentDirectory() + @"/data.txt";
+        static string path = "C:\\data.txt";// System.IO.Directory.GetCurrentDirectory() + @"/data.txt";
         //COM line holder
         string red = "";
         //Loop count
@@ -28,6 +28,11 @@ namespace SeisIsoCom
         {
             Console.Write("Com port: ");
             string portName = Console.ReadLine().ToUpper();
+            OpenFileDialog openFileDialog = new OpenFileDialog();
+
+            openFileDialog.InitialDirectory="C:\\";
+            openFileDialog.RestoreDirectory=true;
+
             port= new SerialPort(portName,115200, Parity.None, 8, StopBits.One);
             new SerialPortProgram();
         }

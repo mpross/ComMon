@@ -5,3 +5,9 @@ C:\Users\mpross2\Work Google Drive\Multipurpose Code\ComMon\ComMon\obj\Debug\Com
 C:\Users\mpross2\Work Google Drive\Multipurpose Code\ComMon\ComMon\obj\Debug\ComMon.pdb
 C:\Users\mpross2\Work Google Drive\Multipurpose Code\ComMon\ComMon\obj\Debug\ComMon.csprojResolveAssemblyReference.cache
 C:\Users\mpross2\Work Google Drive\Multipurpose Code\ComMon\ComMon\obj\Debug\ComMon.csproj.CoreCompileInputs.cache
+C:\Users\Eotwash\Desktop\ComMon\ComMon\bin\Debug\ComMon.exe.config
+C:\Users\Eotwash\Desktop\ComMon\ComMon\obj\Debug\ComMon.exe
+C:\Users\Eotwash\Desktop\ComMon\ComMon\obj\Debug\ComMon.pdb
+C:\Users\Eotwash\Desktop\ComMon\ComMon\obj\Debug\ComMon.csprojResolveAssemblyReference.cache
+C:\Users\Eotwash\Desktop\ComMon\ComMon\bin\Debug\ComMon.exe
+C:\Users\Eotwash\Desktop\ComMon\ComMon\bin\Debug\ComMon.pdb
